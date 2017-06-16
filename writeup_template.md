@@ -46,11 +46,11 @@ A possible improvement would be to ...
 
 Another potential improvement could be to ...
 
-## introduccion. My pipeline has five steps to folow after make lines in the video.
+# introduccion. My pipeline has five steps to folow after make lines in a video.
 
 ### 1. grayscale, gaussian_blur
 
-first we edit the functions grayscale, and gaussian_blur, in order to make easyer for the canny operation to detect edges in the images:
+first we edit the functions grayscale, and gaussian_blur, in order to make easyer for the canny function to detect edges in images:
 ```
 def grayscale(img):
 return cv2.cvtColor(img, cv2.COLOR_RGB2GRAY) 
@@ -58,7 +58,7 @@ return cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 def gaussian_blur(img, kernel_size):
     return cv2.GaussianBlur(img, (kernel_size, kernel_size), 0)
 ```
-### 2. canny
+### 2. canny operat
 ```
 def canny(img, low_threshold, high_threshold): 
 return cv2.Canny(img, low_threshold, high_threshold)
