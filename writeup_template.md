@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-[image2]: .Result/whiteCarLaneSwitch_r.png
+
 ---
 
 ### Reflection
@@ -157,4 +157,4 @@ imshape = img.shape
         cv2.line(img, (upper_right_x, ymin_global), (lower_right_x, ymax_global), color, thickness)
  ```
 
-![image_2] 
+![image2] (https://csilver2.github.com/CarND-LaneLines-P1/Result/whiteCarLaneSwitch_r.png)
