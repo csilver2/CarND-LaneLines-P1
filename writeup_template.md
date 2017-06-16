@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 
 
 
-## My pipeline has seven steps to folow before we can make lines in a video.
+## My pipeline has seven steps to follow before we can make lines in a video.
 
 ### 1. grayscale, gaussian_blur
 
