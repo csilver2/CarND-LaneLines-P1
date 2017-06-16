@@ -18,22 +18,8 @@ The goals / steps of this project are the following:
 ---
 
 
-### 2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
-
-### 3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
-
-#introduccion. 
-##My pipeline has seven steps to folow before we can make lines in a video.
+## My pipeline has seven steps to folow before we can make lines in a video.
 
 ### 1. grayscale, gaussian_blur
 
@@ -45,7 +31,7 @@ return cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 def gaussian_blur(img, kernel_size):
     return cv2.GaussianBlur(img, (kernel_size, kernel_size), 0)
 ```
-### 2. canny operat
+### 2. Canny
 
 In order to detect the edges, we are using the function canny from the CV library wich detects the edges in the images depending on the contrast or different valiues in a group of pixels.
 ```
@@ -206,8 +192,8 @@ This is my result
 ![alt text][image1]
 
 
-##Shortcomings
-The biggest problem with my project is that doesn't detect make lines with curves.
+## Shortcomings
+The biggest problem with my project is that doesn't detect curves.
 
-##Posible Improves.
+## Possible Improves.
 There are too many ways to make lines with this project, and separating the lines with the slope is good when you have straight lines with not vertical or horizontal slope. But in other cases I think should be better to separate lines using coordinates in the image.
