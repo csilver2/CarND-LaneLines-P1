@@ -124,6 +124,8 @@ plt.imshow(lines_edges)
 
 To obtain two lines  I edited the function drawing_lines with the following Code:
 7.0. creating the values where the variables for (x,y) 
+ 
+ Note: I used the method recommended from udacity help videos for term one projects.
 
 7.1. Iterating the x/ y values on the slope and center equations.
 
